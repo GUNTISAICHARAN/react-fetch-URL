@@ -1,0 +1,43 @@
+/* Styling for the movie details component */
+div {
+  box-sizing: border-box;
+}
+
+.list-item-data {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.content-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.content-text{
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.date-published {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.details-link {
+  display: block;
+  margin-top: 15px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.details-link:hover {
+  text-decoration: underline;
+}
